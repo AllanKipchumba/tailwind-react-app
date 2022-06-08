@@ -12,7 +12,10 @@ const Tripple = () => {
         <p className="py-2 border-b mx-8">1 Granted User</p>
         <p className="py-2 border-b mx-8">Send up to 2 GB</p>
       </div>
-      <button className="bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-6 mx-auto px-6 py-3 text-black">
+      <button
+        className="bg-[#00df9a] m-auto w-[200px] rounded-md font-medium ml-4 my-6 px-6 py-3 text-black"
+        style={{ margin: "auto" }}
+      >
         Start Trial
       </button>
     </div>
